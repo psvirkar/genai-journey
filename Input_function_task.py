@@ -1,7 +1,7 @@
 stock = input ("Which Stock you are scanning ? ")
 print("it is", stock)
 Stock_Price = float(input ("What is current price of " + stock +" ? "))
-print ("current price of " + stock + "is", Stock_Price)
+print ("current price of " + stock + " is", Stock_Price)
 Qty = 1000
 price_upper_range = 1300
 price_lower_range = 1250
