@@ -1,8 +1,7 @@
-stock = input ("Which Stock?")
-print ("What is current Price of?")
-print (stock)
-Stock_Price = float(1275.75)
-print ("Current price is",Stock_Price)
+stock = input ("Which Stock you are scanning ? ")
+print("it is", stock)
+Stock_Price = float(input ("What is current price of " + stock +" ? "))
+print ("current ptice of " + stock + "is", Stock_Price)
 Qty = 1000
 price_upper_range = 1300
 price_lower_range = 1250
